@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+
+.clock {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-family: monospace;
+  font-weight: bold;
+  color: #1f3a5f;
+}

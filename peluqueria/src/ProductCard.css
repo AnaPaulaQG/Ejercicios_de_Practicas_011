@@ -53,3 +53,48 @@
   background-color: #f8d7da;
   color: #a12834;
 }
+
+.product-quantity {
+  margin: 10px 0 6px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.product-buttons button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Un color distinto para cada botón */
+.product-buttons button:nth-child(1) {
+  background-color: #dc3545; /* - rojo */
+}
+
+.product-buttons button:nth-child(2) {
+  background-color: #28a745; /* + verde */
+}
+
+.product-buttons button:nth-child(3) {
+  background-color: #6c757d; /* Reset gris */
+}
+
+.product-buttons button:hover:not(:disabled) {
+  filter: brightness(0.9);
+}
+
+.product-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
